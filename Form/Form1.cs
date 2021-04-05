@@ -9,6 +9,7 @@ using System.Windows.Forms;
 namespace Form
 {
 
+    //TODO Собрать в библиотеку
     public static class Cipher
     {
         private const string Label = "Encrypted";
