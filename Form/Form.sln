@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form", "Form.csproj", "{047FD5A2-3386-4F28-8507-1F7A51901515}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CipherLib", "CipherLib\CipherLib.csproj", "{417A7E45-E4EA-45F8-9072-DC654ACADF50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{047FD5A2-3386-4F28-8507-1F7A51901515}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{047FD5A2-3386-4F28-8507-1F7A51901515}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{047FD5A2-3386-4F28-8507-1F7A51901515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417A7E45-E4EA-45F8-9072-DC654ACADF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417A7E45-E4EA-45F8-9072-DC654ACADF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417A7E45-E4EA-45F8-9072-DC654ACADF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417A7E45-E4EA-45F8-9072-DC654ACADF50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

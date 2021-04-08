@@ -4,13 +4,13 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
-//using Cipher ;
+using CipherLib ;
 
 namespace Form
 {
 
     //TODO Собрать в библиотеку
-    public static class Cipher
+    /*public static class Cipher
     {
         private const string Label = "Encrypted";
 
@@ -97,7 +97,7 @@ namespace Form
                 }
             }
         }
-    }
+    }*/
     public partial class Form1 : System.Windows.Forms.Form
     {
         //private string _path = @"D:\USATU\3 Курс\Информационные технологии\LR3\Test.txt";
@@ -127,7 +127,7 @@ namespace Form
            fileDialog.ShowDialog();
            var path = Path.GetFullPath(fileDialog.FileName);
            Console.Write(path);
-            
+
            Cipher.Code(path);
            //textBox1.Text = @"Файл успешно зашифрован.";
        }

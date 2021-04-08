@@ -31,4 +31,4 @@ D:\USATU\3 Курс\Информационные технологии\LR3\Form\o
 D:\USATU\3 Курс\Информационные технологии\LR3\Form\obj\Debug\net5.0-windows\ref\Form.dll
 D:\USATU\3 Курс\Информационные технологии\LR3\Form\obj\Debug\net5.0-windows\Form.pdb
 D:\USATU\3 Курс\Информационные технологии\LR3\Form\obj\Debug\net5.0-windows\Form.genruntimeconfig.cache
-D:\USATU\3 Курс\Информационные технологии\LR3\Form\obj\Debug\net5.0-windows\Form.Cipher.resources
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\obj\Debug\net5.0-windows\Form.Form1.resources
