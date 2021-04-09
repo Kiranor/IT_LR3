@@ -1,0 +1,12 @@
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\bin\Debug\net5.0\CipherLib.deps.json
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\bin\Debug\net5.0\CipherLib.dll
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\bin\Debug\net5.0\ref\CipherLib.dll
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\bin\Debug\net5.0\CipherLib.pdb
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\obj\Debug\net5.0\CipherLib.csprojAssemblyReference.cache
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\obj\Debug\net5.0\CipherLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\obj\Debug\net5.0\CipherLib.AssemblyInfoInputs.cache
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\obj\Debug\net5.0\CipherLib.AssemblyInfo.cs
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\obj\Debug\net5.0\CipherLib.csproj.CoreCompileInputs.cache
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\obj\Debug\net5.0\CipherLib.dll
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\obj\Debug\net5.0\ref\CipherLib.dll
+D:\USATU\3 Курс\Информационные технологии\LR3\Form\CipherLib\obj\Debug\net5.0\CipherLib.pdb

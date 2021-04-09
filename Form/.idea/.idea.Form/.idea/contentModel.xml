@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\HomePK\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\HomePK\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Form.-646385158.00" t="ExcludeRecursive" />
+    <e p="D:\USATU\3 Курс\Информационные технологии\LR3\Form" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="CipherLib" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="desktop.ini" t="Include" />
+            <e p="net5.0" t="Include">
+              <e p="CipherLib.deps.json" t="Include" />
+              <e p="CipherLib.dll" t="Include" />
+              <e p="CipherLib.pdb" t="Include" />
+              <e p="desktop.ini" t="Include" />
+              <e p="ref" t="Include">
+                <e p="CipherLib.dll" t="Include" />
+                <e p="desktop.ini" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="desktop.ini" t="Include" />
+        </e>
+        <e p="CipherLib.csproj" t="IncludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="desktop.ini" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="CipherLib.csproj.nuget.dgspec.json" t="Include" />
+          <e p="CipherLib.csproj.nuget.g.props" t="Include" />
+          <e p="CipherLib.csproj.nuget.g.targets" t="Include" />
+          <e p="Debug" t="Include">
+            <e p="desktop.ini" t="Include" />
+            <e p="net5.0" t="Include">
+              <e p=".NETCoreApp,Version=v5.0.AssemblyAttributes.cs" t="Include" />
+              <e p="CipherLib.AssemblyInfo.cs" t="Include" />
+              <e p="CipherLib.AssemblyInfoInputs.cache" t="Include" />
+              <e p="CipherLib.assets.cache" t="Include" />
+              <e p="CipherLib.csproj.CoreCompileInputs.cache" t="Include" />
+              <e p="CipherLib.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="CipherLib.csprojAssemblyReference.cache" t="Include" />
+              <e p="CipherLib.dll" t="Include" />
+              <e p="CipherLib.GeneratedMSBuildEditorConfig.editorconfig" t="Include" />
+              <e p="CipherLib.pdb" t="Include" />
+              <e p="desktop.ini" t="Include" />
+              <e p="ref" t="Include">
+                <e p="CipherLib.dll" t="Include" />
+                <e p="desktop.ini" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="desktop.ini" t="Include" />
+          <e p="project.assets.json" t="Include" />
+          <e p="project.nuget.cache" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+          <e p="rider.project.restore.info" t="Include" />
+        </e>
+      </e>
+      <e p="desktop.ini" t="Include" />
+      <e p="Form.csproj" t="IncludeRecursive" />
+      <e p="Form.sln" t="IncludeFlat" />
+      <e p="Form1.cs" t="Include" />
+      <e p="Form1.Designer.cs" t="Include" />
+      <e p="Form1.resx" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="net5.0-windows" t="Include">
+            <e p="Form.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+    </e>
+  </component>
+</project>
