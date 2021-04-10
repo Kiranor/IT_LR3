@@ -7,7 +7,7 @@ namespace CipherLib
 {
     public static class Cipher
     {
-        private const string Label = "Encrypted";
+        public const string Label = "Encrypted";
 
         /// <summary>
         /// Шифрует или расшифровывает строку классичесим шифром Цезаря
@@ -16,17 +16,18 @@ namespace CipherLib
         /// <param name="mode"></param>
         /// <param name="key"></param>
         /// <returns></returns>
-        private static string Caesar(string line, char mode, int key = 2)
+        public static string Caesar(string line, char mode, int key = 2)
         {
             string encLine = null;
             
             if (mode == 'e') 
                 foreach (var letter in line) 
                     encLine += (char) ((letter + key) % 256);
-            else 
-                foreach (var letter in line) 
+            else
+            {
+                foreach (var letter in line)
                     encLine += (char) ((letter - key) % 256);
-
+            }
             return encLine;
         }
 
@@ -37,7 +38,7 @@ namespace CipherLib
         /// <param name="mode"></param>
         /// <param name="key"></param>
         /// <returns></returns>
-        private static string Better_Caesar(string line, char mode, int key = 2)
+        public static string Better_Caesar(string line, char mode, int key = 2)
         {
             string encLine = null;
             int count = 0;
@@ -78,8 +79,14 @@ namespace CipherLib
             using (var sr = new StreamReader(fileName, Encoding.Default))
             {
                 string line;
-                while ((line = sr.ReadLine()) != null) 
+                while ((line = sr.ReadLine()) != null)
+                {
+                    if (line == Caesar(Label, 'e', key))
+                    {
+                        throw new Exception("Файл уже зашифрован.");
+                    }
                     text.Add(Caesar(line, 'e', key));
+                }
             }
             using (var sw = new StreamWriter(fileName))
             {
@@ -102,7 +109,13 @@ namespace CipherLib
             {
                 string line;
                 while ((line = sr.ReadLine()) != null) 
+                {
+                    if (line == Better_Caesar(Label, 'e', key))
+                    {
+                        throw new Exception("Файл уже зашифрован.");
+                    }
                     text.Add(Better_Caesar(line, 'e', key));
+                }
             }
             using (var sw = new StreamWriter(fileName))
             {
@@ -126,7 +139,7 @@ namespace CipherLib
             using (var sr = new StreamReader(fileName, Encoding.Default))
             {
                 string line;
-                if (sr.ReadLine() != Caesar(Label, 'd', key))
+                if (sr.ReadLine() != Caesar(Label, 'e', key))
                 {
                     throw new Exception("Файл не может быть расшифрован.");
                 }
@@ -140,10 +153,32 @@ namespace CipherLib
                 }
             }
         }
-
-        public static void Code()
+        /// <summary>
+        /// Расшифровывает файл улучшенным шифром Цезаря
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <param name="better"></param>
+        /// <param name="key"></param>
+        public static void Decode(string fileName, bool better, int key = 2)
         {
-            throw new NotImplementedException();
+            var text = new List<string>();
+            
+            using (var sr = new StreamReader(fileName, Encoding.Default))
+            {
+                string line;
+                if (sr.ReadLine() != Better_Caesar(Label, 'e', key))
+                {
+                    throw new Exception("Файл не может быть расшифрован.");
+                }
+                while ((line = sr.ReadLine()) != null) text.Add(Better_Caesar(line, 'd', key));
+            }
+            using (var sw = new StreamWriter(fileName))
+            {
+                foreach (var line in text)
+                {
+                    sw.WriteLine(line);
+                }
+            }
         }
     }
 }

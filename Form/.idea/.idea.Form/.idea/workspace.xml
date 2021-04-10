@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ccf112a-bcac-4c36-a36f-4000537f7c95" name="Default Changelist" comment="Add dll" />
+    <list default="true" id="5ccf112a-bcac-4c36-a36f-4000537f7c95" name="Default Changelist" comment="Add dll">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Form/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Form/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Form/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Form/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Form/.idea/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Form/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Form/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CipherLib/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CipherLib/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CipherLib/obj/CipherLib.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CipherLib/obj/CipherLib.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CipherLib/obj/Debug/net5.0/CipherLib.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CipherLib/obj/Debug/net5.0/CipherLib.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CipherLib/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CipherLib/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CipherLib/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CipherLib/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CipherLib/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CipherLib/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CipherLib/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CipherLib/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Form.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Form1.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Form1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0-windows/Form.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0-windows/Form.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0-windows/Form.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0-windows/Form.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0-windows/ref/Form.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0-windows/ref/Form.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0-windows/Form.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0-windows/Form.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0-windows/Form.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0-windows/Form.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0-windows/Form.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0-windows/Form.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0-windows/Form.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0-windows/Form.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0-windows/ref/Form.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0-windows/ref/Form.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Form.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Form.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Test.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,17 +49,18 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/USATU/3 Курс/Информационные технологии/LR3/Form/obj/Debug/net5.0-windows/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/61F5185B-E9CF-48B9-8487-181D7861EB9C/3A0/StreamReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/net5.0-windows/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CDED1048-6B74-4DC1-81D1-D28BFA5DF267/113/NativeWindow.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Form1.Designer.cs" />
       <option value="$PROJECT_DIR$/obj/Debug/net5.0-windows/Form.AssemblyInfo.cs" />
       <option value="$PROJECT_DIR$/obj/Debug/net5.0-windows/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
+      <option value="$PROJECT_DIR$/Form1.Designer.cs" />
+      <option value="$PROJECT_DIR$/CipherLib/Class1.cs" />
       <option value="$PROJECT_DIR$/../Test.txt" />
       <option value="$PROJECT_DIR$/Form1.cs" />
-      <option value="$PROJECT_DIR$/CipherLib/Class1.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1qQvzg6KgSMTFqUP7QGG4hfq4kY" />
@@ -40,7 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34950384" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -83,6 +114,11 @@
       <workItem from="1617638657531" duration="364000" />
       <workItem from="1617639105947" duration="1522000" />
       <workItem from="1617903468699" duration="2063000" />
+      <workItem from="1617993626670" duration="278000" />
+      <workItem from="1617995571722" duration="36000" />
+      <workItem from="1617995756323" duration="128000" />
+      <workItem from="1617996122874" duration="250000" />
+      <workItem from="1618045027353" duration="6206000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1617638961492</created>
@@ -112,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617904002240</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add dll">
+      <created>1617993660977</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617993660977</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
