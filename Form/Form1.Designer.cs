@@ -139,7 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(541, 403);
+            this.ClientSize = new System.Drawing.Size(501, 173);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Выбор файла для шифрования";

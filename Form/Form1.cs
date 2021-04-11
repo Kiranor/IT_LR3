@@ -52,7 +52,7 @@ namespace Form
         }
        private void button1_Click(object sender, EventArgs e)
        {
-           _key = int.Parse(textBox1.Text) % 128;
+           _key = int.Parse(textBox1.Text);
        }
        //TODO Сделать отображение файла
        //Засшифровка обычным шифром

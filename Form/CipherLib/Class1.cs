@@ -76,7 +76,7 @@ namespace CipherLib
         {
             var text = new List<string>();
             
-            using (var sr = new StreamReader(fileName, Encoding.Default))
+            using (var sr = new StreamReader(fileName, Encoding.ASCII))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
@@ -105,7 +105,7 @@ namespace CipherLib
         {
             var text = new List<string>();
             
-            using (var sr = new StreamReader(fileName, Encoding.Default))
+            using (var sr = new StreamReader(fileName, Encoding.ASCII))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null) 
@@ -136,7 +136,7 @@ namespace CipherLib
         {
             var text = new List<string>();
             
-            using (var sr = new StreamReader(fileName, Encoding.Default))
+            using (var sr = new StreamReader(fileName, Encoding.ASCII))
             {
                 string line;
                 if (sr.ReadLine() != Caesar(Label, 'e', key))
@@ -163,7 +163,7 @@ namespace CipherLib
         {
             var text = new List<string>();
             
-            using (var sr = new StreamReader(fileName, Encoding.Default))
+            using (var sr = new StreamReader(fileName, Encoding.ASCII))
             {
                 string line;
                 if (sr.ReadLine() != Better_Caesar(Label, 'e', key))
